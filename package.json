@@ -1,0 +1,29 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "MERN stack practice",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "mern",
+    "mongo",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "Mahalias Roman <mahaliasroma@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
